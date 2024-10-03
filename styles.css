@@ -37,9 +37,6 @@ body {
   background-color: var(--cg-black);
   color: var(--cg-white);
   padding: 0px 0px;
-
-  /* Debug border */
-  /* border: solid red; */
 }
 
 .nav-list {
@@ -48,9 +45,6 @@ body {
   position: relative;
   right: 30px;
   list-style: none;
-
-  /* Debug border */
-  /* border: solid blue; */
 }
 
 .navbar a {
@@ -197,8 +191,7 @@ main {
 
 
 /* CSS for resume page */
-
-.button {
+#button {
   background-color: var(--cg-black);
   border: none;
   color: var(--cg-white);
@@ -219,11 +212,13 @@ main {
   font-family: Georgia;
 }
 
+
 /* CSS for contact form */
 
 label {
   display: block;
   margin-bottom: 8px;
+  margin-left: 3px;
   font-family: Georgia;
   font-weight: bold;
 }
@@ -231,19 +226,23 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 93%;
   padding: 10px;
+  margin-left: 5px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   font-size: 16px;
   resize: none;
 }
 
+
 /* Add some spacing to the form */
 form {
   width: 500px;
   margin: 0 auto;
+  background-color: lavender;
+  border: 1px black solid;
 }
 
 /* CSS for footer */
